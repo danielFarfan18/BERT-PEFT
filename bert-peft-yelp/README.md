@@ -18,8 +18,6 @@ library_name: peft
 
 
 - **Developed by:** Marcos Daniel Rodríguez Farfán
-- **Funded by [optional]:** [More Information Needed]
-- **Shared by [optional]:** [More Information Needed]
 - **Model type:** BERT
 - **Language(s) (NLP):** English
 
@@ -27,10 +25,23 @@ library_name: peft
 ## Training Details
 
 ### Training Data
+#### **Dataset summary**
+**Source Data:**  
+The [Yelp reviews dataset](https://huggingface.co/datasets/Yelp/yelp_review_full) consists of reviews from Yelp. It is extracted from the Yelp Dataset Challenge 2015 data.
 
-<!-- This should link to a Dataset Card, perhaps with a short stub of information on what the training data is all about as well as documentation related to data pre-processing or additional filtering. -->
+**Languages**  
+The reviews were mainly written in english.
 
-[More Information Needed]
+#### **Dataset Structure**
+
+**Data Instances**
+A typical data point, comprises of a text and the corresponding label.
+
+**Data Fields**
+The simplified configuration includes:
+
+- `text`: The review texts are escaped using double quotes ("), and any internal double quote is escaped by 2 double quotes (""). New lines are escaped by a backslash followed with an "n" character, that is "\n".
+- `labels`: Corresponds to the score associated with the review (between 1 and 5).
 
 ### Training Procedure
 
