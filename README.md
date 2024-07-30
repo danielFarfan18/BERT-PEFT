@@ -1,7 +1,3 @@
-# BERT-PEFT
-Lightweight Fine-Tuning BERT for YELP classification
-
-
 ---
 base_model: nlptown/bert-base-multilingual-uncased-sentiment
 library_name: peft
@@ -9,9 +5,8 @@ library_name: peft
 
 # Model Card for Model ID
 
-<!-- Provide a quick summary of what the model is/does. -->
-
-
+# BERT-PEFT
+Lightweight Fine-Tuning BERT for YELP classification
 
 ## Model Details
 
