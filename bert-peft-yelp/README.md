@@ -67,10 +67,8 @@ The simplified configuration includes:
 
 ### Compute Infrastructure
 
-[More Information Needed]
-
 #### Hardware
-RTX3060Ti
+GPU: RTX3060Ti
 
 
 ## Model Card Contact
